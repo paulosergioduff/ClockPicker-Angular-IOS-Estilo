@@ -1,0 +1,161 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+
+
+
+
+}
+
+.transparente
+
+            {
+                opacity: 0.6;
+            }
+.um {
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+    height: 100%;
+    /* para falta de suporte */
+    
+    height: -webkit-calc(100% - 100px);
+    /* para Chrome */
+    
+    height: -moz-calc(100% - 100px);
+    /* para Firefox */
+    
+    height: calc(100% - 100px);
+    /* para suporte nativo */
+}
+#tudo {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+    border-style: solid;
+    border-color: red;
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/paginas.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+#topo {
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    top: 6%;
+    background-color: pink;
+}
+
+#navegacaoFilho
+        {
+            width: 90%;
+            height: 90%;
+            border-style: solid;
+            border-color: black;
+            position: absolute;
+        }
+#botoesFooter {
+    position: absolute;
+    bottom: 0%;
+    background-color: pink;
+    width: 100%;
+    height: 6%;
+}
+.botoesTopo {
+    height: 100%;
+    width: 12%;
+    border-style: solid;
+    border-color: red;
+}
+
+#botaoMenu {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+#botaoLupa {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+     height: 100%;
+    width: 7%;
+    border-style: solid;
+    border-color: red;
+
+
+}
+#botaoCestinha {
+    position: absolute;
+    bottom: 0%;
+    right: 13%;
+      height: 80%;
+    width: 8%;
+    border-style: solid;
+    border-color: red;
+}
+#logo {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    left: 33%;
+    border-color: black;
+    bottom: 0%;
+}
+
+.botoesFooter {
+    height: 100%;
+    width: 15%;
+    
+}
+
+#botaoHome
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;	
+	border-style: solid;
+    border-color: green;
+}
+
+#botaoPerfil
+{
+	position: absolute;
+	top: 0%;
+	right: 0%;	
+	border-style: solid;
+    border-color: blue;
+}
+
+#botaocategorias
+{
+	position: absolute;
+	top: 0%;
+	left: 27%;	
+	border-style: solid;
+    border-color: black;
+}
+
+#botaoDicasDeSaude
+{
+	position: absolute;
+	top: 0%;
+	right: 27%;	
+	border-style: solid;
+    border-color: red;
+}

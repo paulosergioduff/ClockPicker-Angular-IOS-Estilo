@@ -1,0 +1,284 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    top: -2%;
+
+}
+
+
+
+#conteudo
+    {
+        top: 14%;
+        position: fixed;
+        width: 100%;
+        height: 54%;
+    }
+
+#resultado /* da busca */
+    {
+        bottom: 0%;
+        position: fixed;
+        width: 100%;
+        height: 54%;
+    }
+
+
+.transparente
+
+            {
+                opacity: 0.6;
+            }
+.um {
+    background: #333;
+    color: white;
+    padding: 50px 20px;
+    height: 100%;
+    /* para falta de suporte */
+    
+    height: -webkit-calc(100% - 100px);
+    /* para Chrome */
+    
+    height: -moz-calc(100% - 100px);
+    /* para Firefox */
+    
+    height: calc(100% - 100px);
+    /* para suporte nativo */
+}
+
+#topo {
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    top: 6%;
+   
+}
+#banner {
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    top: 16%;
+
+    
+}
+
+#seletorImagem{
+    position: fixed;
+    width: 100%;
+    height: 18%;
+    top: 14%;
+    left: 85%;
+    color: green;
+    
+}
+#sugestoes {
+    position: absolute;
+    width: 100%;
+    height: 58%;
+    top: 26%;
+    /*background-color: blue;*/
+    overflow-y: scroll;
+}
+
+#parceiros {
+    position: absolute;
+    bottom: 9%;
+   
+    width: 100%;
+    height: 6%;
+    
+}
+#botoesFooter {
+    position: absolute;
+    bottom: 0%;
+
+    width: 100%;
+    height: 6%;
+}
+.botoesTopo {
+    height: 100%;
+    width: 12%;
+   
+    
+}
+
+#botaoMenu {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    top: 15%;
+    opacity: 0.0;
+}
+#botaoLupa {
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+     height: 100%;
+    width: 7%;
+  
+
+
+}
+#botaoCestinha {
+    position: absolute;
+    bottom: 0%;
+    right: 13%;
+      height: 80%;
+    width: 8%;
+    
+   
+}
+#logo {
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    left: 33%;
+    text-decoration: none;
+    bottom: 0%;
+}
+
+.botoesFooter {
+    height: 100%;
+    width: 15%;
+    
+}
+
+#botaoHome
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;	
+
+}
+
+#botaoPerfil
+{
+	position: absolute;
+	top: 0%;
+	right: 0%;	
+	
+}
+
+#botaocategorias
+{
+	position: absolute;
+	top: 0%;
+	left: 27%;	
+	
+}
+
+#botaoDicasDeSaude
+{
+	position: absolute;
+	top: 0%;
+	right: 27%;	
+	
+}
+
+#blockEsquerdo
+    {
+        background-color: red;
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: 2;
+        opacity: 0.0;
+    }
+
+#blockDireita
+    {
+        background-color: blue;
+        width: 37%;
+        height: 35%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: 2;
+        opacity: 0.0;
+    }
+
+    #trazerParaFrente
+        {
+            z-index: 9999;
+        }
+
+  #linkIniciomenu
+    {
+        position: absolute;
+        background-color: blue;
+        width: 100%;
+        height: 3.5%;
+        top: 32.5%;
+        opacity: 0.0;
+
+    }
+
+#linkbusca
+    {
+        position: absolute;
+        background-color: red;
+        width: 100%;
+        height: 3.5%;
+        top: 37.5%;
+       opacity: 0.0;
+
+    }
+
+#linkcategorias
+    {
+        position: absolute;
+        background-color: yellow;
+        width: 100%;
+        height: 3%;
+        top: 42%;
+        opacity: 0.0;
+
+    }
+
+#linkdicasDeSaude
+    {
+        position: absolute;
+        background-color: green;
+        width: 100%;
+        height: 3%;
+        top: 47%;
+        opacity: 0.0;
+
+    }
+
+#linkalertaDeSaude
+    {
+        position: absolute;
+        background-color: red;
+        width: 100%;
+        height: 3%;
+        top: 51.5%;
+        opacity: 0.0;
+
+    }
+
+#linkmeusPedidos
+    {
+        position: absolute;
+        background-color: blue;
+        width: 100%;
+        height: 3%;
+        top: 56%;
+        opacity: 0.0;
+
+    }
+
+#linkminhaConta
+    {
+        position: absolute;
+        background-color: yellow;
+        width: 100%;
+        height: 3%;
+        top: 60%;
+        opacity: 0.0;
+
+    }

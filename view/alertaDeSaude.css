@@ -1,0 +1,104 @@
+html ,
+
+body { margin:0; height: 100%;}
+.um { background: #333; 
+	color: white; 
+	padding: 50px 20px; 
+  	height: 100%;                        /* para falta de suporte */  
+  	height: -webkit-calc(100% - 100px);  /* para Chrome */
+    height: -moz-calc(100% - 100px);     /* para Firefox */
+  	height: calc(100% - 100px);          /* para suporte nativo */
+  	
+  	
+ }
+
+#containerGeral
+			{
+				position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/fundoEscuro.png") no-repeat center center fixed;
+   /* background: url("img/telas/alarmeDeSaudeAdcionar.jpeg") no-repeat center center fixed;*/
+
+    /*alarmeDeSaudeAdcionar.jpeg*/
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+			}
+
+#caixaTeste
+		{
+			width: 15%;
+			height: 15%;
+			background-color: blue;
+			position: absolute;
+			top: 0%;
+		}
+
+#caixaTeste2
+		{
+			width: 15%;
+			height: 15%;
+			position: absolute;
+			right: 0%;
+			top: 0%;
+		}
+
+
+#containerCentro
+
+		{
+			width: 80%;
+			height: 55%;
+			
+			background-color: black;
+
+			top: 20%;
+			left: 10%;
+			position: absolute;
+		}
+#alerta
+
+		{
+			width: 91%;
+			height: 58%;
+			
+			background-color: black;
+
+			top: 21%;
+			left: 4%;
+			position: absolute;
+		}
+
+#containerFilho
+		{
+			position: absolute;
+			right: 0%;
+			width: 65%;
+			height: 65%;
+			background-color: #ccc;
+		}
+
+
+#containerFilho2
+		{
+			position: absolute;
+			right: 0%;
+			width: 65%;
+			height: 65%;
+			background-color: blue;
+			bottom: 0%;
+		}

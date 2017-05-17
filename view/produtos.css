@@ -1,0 +1,67 @@
+#produtosContainer
+		{
+			position: absolute;
+			height: 75%;
+			width: 400px;
+			
+			bottom: 0%;
+			
+					}
+
+#sugestoesFarmaLiv
+		{
+			position: absolute;
+			width: 65%;
+			height: 8%;
+			left: 4%;
+			top: 8%;
+		}
+
+
+.produtos
+
+{
+		float: left;
+		height: 100%;
+		width: 18%;
+		margin: 5%;
+		margin-top: 0%;
+		
+		color: green;
+		position: relative;
+		left: 5%;
+		}
+
+.descricao
+
+{
+		position: absolute;
+		height: 23%;
+		width: 100%;
+		bottom: 18%;
+		
+}
+
+.botaoComprar
+
+{
+		position: absolute;
+		height: 15%;
+		width: 100%;
+		bottom: 0%;
+		border-style: solid;
+		border-color: red;
+		background-color: black;
+}
+
+.fotoProduto
+
+{
+		position: absolute;
+		height: 55%;
+		width: 100%;
+		top: 0%;
+		border-style: solid;
+		border-color: red;
+		background-color: black;
+}

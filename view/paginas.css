@@ -1,0 +1,389 @@
+   
+
+   #fonteNova {
+         font-family: Frutiger;
+         src: url('./fontes/Frutiger46-Light-Italic-LightItalic.ttf');
+         font:36px Frutiger; 
+        position: fixed;
+
+        top: 7%;
+        left: 10%;
+        font-style: italic;
+    }
+
+   
+
+     #itensDeAtalho {
+         font-family: Frutiger;
+         src: url('./fontes/Frutiger46-Light-Italic-LightItalic.ttf');
+           font:18px Frutiger; 
+        position: fixed;
+        top: 25%;
+        left: 2.5%;
+        font-style: italic;
+        width: 95%;
+        overflow:auto;
+        height: 65%;
+    }
+
+    .itensEstilo
+        {
+            background-color: #a3238e;
+        border-radius: 20px;
+        color: white;
+
+        
+        }
+
+    
+
+
+
+
+#tudo {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/home.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#telaLogin {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/telaLogin.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+
+#comprandoDipirona {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/dipironaCompra.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#paginas{
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/paginas.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#meusPedidos {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/pedidos.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#minhaConta {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/dadosPessoais.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#alertaDeSaude {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/alertaSaudeInicial.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#finalAlertaDeSaude {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/meusAlarmes.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+
+#matriz {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/paginas.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#dicasDeSaude {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/dicasDeSaudePagina.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#categorias {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/categoriasPagina.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#comprando {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/comprando.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#levandoParaOcaixa {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/levandoParaOcaixa.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+#paginaCestinha {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/paginaCestinha.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}
+
+
+#fundoEscuro {
+    position: relative;
+    box-sizing: border-box;
+    height: calc(100% - 100px);
+   
+    background-color: yellow;
+    min-height: 100%;
+    
+
+    background: url("img/telas/fundoEscuro.png") no-repeat center center fixed;
+background-size: 100% 100%;
+
+background-size: cover;
+
+-webkit-background-size: cover; /* SAFARI / CHROME */
+
+-moz-background-size: cover; /* FIREFOX */
+
+-ms-background-size: cover; /* IE */
+
+-o-background-size: cover; /* OPERA */
+}

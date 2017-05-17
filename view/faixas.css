@@ -1,0 +1,101 @@
+#faixa1
+    {
+        position: fixed;
+        top: 18%;
+        right: 0%;
+        height: 3%;
+        width: 5%;
+        background-color: #a10081;
+        
+    }
+
+#faixa2
+    {
+        position: fixed;
+        top: 21%;
+        right: 0%;
+        height: 3%;
+        width: 5%;
+        background-color: #650255;
+        
+    }
+
+#faixa3
+    {
+        position: fixed;
+        top: 24%;
+        right: 0%;
+        height: 3%;
+        width: 5%;
+        background-color: green;
+        
+    }
+
+#faixa4
+    {
+        position: fixed;
+        top: 27%;
+        right: 0%;
+        height: 3%;
+        width: 5%;
+        background-color: #94c05e;
+        
+    }
+
+#subfaixas
+    {
+        position: relative;
+        top: 17%;
+         z-index: 1;
+    }
+
+#subfaixa1
+    {
+        position: fixed;
+        top: 18%;
+        right: 0%;
+        height: 3%;
+        width: 3%;
+        background-color: #a10081;
+        opacity: 0.7;
+    }
+
+#subfaixa2
+    {
+        position: fixed;
+        top: 21%;
+        right: 0%;
+        height: 3%;
+        width: 3%;
+        background-color: #650255;
+        opacity: 0.7;
+    }
+
+#subfaixa3
+    {
+        position: fixed;
+        top: 24%;
+        right: 0%;
+        height: 3%;
+        width: 3%;
+        background-color: green;
+        opacity: 0.7;
+    }
+
+#subfaixa4
+    {
+        position: fixed;
+        top: 27%;
+        right: 0%;
+        height: 3%;
+        width: 3%;
+        background-color: #94c05e;
+        opacity: 0.7;
+    }
+
+/*
+faixa1 #a3238e
+faixa2 #8ac865
+faixa3 green
+faixa4 white
+*/
